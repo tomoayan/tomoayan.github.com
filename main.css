@@ -140,6 +140,7 @@ h6 {
 .links a:active {
     box-shadow: 0 0;
     transform: translate(0)
+    scale(.97)
 }
 
 .links svg {
