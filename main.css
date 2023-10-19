@@ -157,7 +157,7 @@ h6 {
 }
 
 /* social custom colour */
-.links-container a.instagram:hover, 
+.links-container a.instagram:hover,
 .links-container a.instagram:hover svg,
 .links-container a.youtube:hover,
 .links-container a.youtube:hover svg {
@@ -169,6 +169,7 @@ h6 {
 .links-container .instagram::before {
     background: linear-gradient(90deg, #d300c5 0%, #ff0069 50%, #ffd600 100%);
 }
+
 .links-container .youtube::before {
     background-color: hsl(0, 100%, 60%);
 }
@@ -179,6 +180,10 @@ h6 {
 @media only screen and (max-width: 450px) {
     .links-container a::before {
         transform: translateY(70%);
-
     }
-  }
+
+    .bio p, 
+    .profile h3 {
+        font-size: 14px;
+    }
+}
