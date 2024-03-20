@@ -112,6 +112,7 @@ align-items: flex-end;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.8);
 }
 
 .links-container {
@@ -128,9 +129,9 @@ align-items: flex-end;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    box-shadow: inset 0px 0px 0px 1.5px hsla(0, 0%, 100%, 0.6);
+    box-shadow: inset 0px 0px 0px 1.5px hsla(0, 0%, 100%, 0.5);
     border-radius: 10px;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsla(0, 0%, 100%, 0.5);
     font-size: 14px;
     overflow: hidden;
     transition: color ease-in .1s, box-shadow linear .1s
@@ -139,7 +140,7 @@ align-items: flex-end;
 .links-container a svg {
     width: 24px;
     height: 24px;
-    fill: hsla(0, 0%, 100%, 0.6);
+    fill: hsla(0, 0%, 100%, 0.5);
     transition: fill ease-in .1s;
 }
 
