@@ -46,9 +46,9 @@ h6 {
 /* Wrapper */
 .wrapper {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
 
@@ -186,4 +186,30 @@ h6 {
     .profile h3 {
         font-size: 14px;
     }
+}
+
+
+
+
+/* roadmap */
+.roadMap {
+    border-left: 1px solid #ffffff81;
+    min-height: 100vh;
+    padding: 40px;
+    color: #fff;
+}
+
+.roadMap h1 {
+    margin-bottom: 1rem;
+}
+
+.roadMap .active, .roadMap .planned {
+    
+}
+
+.roadMap .task {
+    background-color: hsla(0, 0%, 47%, 0.222);
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 100%;
 }
