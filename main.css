@@ -214,6 +214,7 @@ align-items: flex-end;
     border-left: 1px solid hsla(0, 0%, 100%, 0.2);
     min-height: 100vh;
     padding: 40px;
+    color: hsl(0, 0%, 100%, 0.8);
 }
 
 .roadmap-wrapper {
@@ -224,17 +225,17 @@ align-items: flex-end;
     width: 100%;
     margin-bottom: 16px;
     padding-bottom: 6px;
+
 }
 
 .roadmap-wrapper .active, .roadmap-wrapper .planned {
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
 }
 
 .roadMap .planned {
-margin-top: 50px;    
+    margin-top: 50px;    
 }
 
 .roadMap .task {
@@ -258,7 +259,6 @@ margin-top: 50px;
 @media screen and (max-width: 1024px) {
     .roadMap {
         border-left: none;
-        /* border-top: 1px solid hsla(0, 0%, 100%, 0.2); */
         margin-top: 40px;
     }
 }
