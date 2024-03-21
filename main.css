@@ -140,14 +140,14 @@ h6 {
     color: hsla(0, 0%, 100%, 0.5);
     font-size: 14px;
     overflow: hidden;
-    transition: color ease-in .1s, box-shadow linear .1s
+    transition: color .1s ease-in, box-shadow .1s ease;
 }
 
 .links-container a svg {
     width: 24px;
     height: 24px;
     fill: hsla(0, 0%, 100%, 0.5);
-    transition: fill ease-in .1s;
+    transition: fill .1s ease-in;
 }
 
 
@@ -163,7 +163,7 @@ h6 {
     z-index: -1;
     border-radius: 50%;
     transform: translateY(65%);
-    transition: transform cubic-bezier(0, 0, 0, 1) .5s
+    transition: transform .5s cubic-bezier(0, 0, 0, 1);
 }
 
 .links-container a:hover,
